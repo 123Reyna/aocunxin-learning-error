@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<DecImportResponse xmlns="http://www.chinaport.gov.cn/dec">
+  <ResponseCode>1</ResponseCode>
+  <ErrorMessage>01RPC_报关导入服务失败：该票报关单为重发数据，其客户端报关单编号为：GTI202006040005, 关检关联号为：I20200000433973441，请绑定如上信息后再暂存！</ErrorMessage>
+  <ClientSeqNo>GTI202006040005</ClientSeqNo>
+</DecImportResponse>

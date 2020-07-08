@@ -1,0 +1,9 @@
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\bin\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.deps.json
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\bin\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.dll
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\bin\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.pdb
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\obj\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.csprojAssemblyReference.cache
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\obj\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.AssemblyInfoInputs.cache
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\obj\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.AssemblyInfo.cs
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\obj\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.csproj.CoreCompileInputs.cache
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\obj\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.dll
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.IRepository\obj\Debug\netcoreapp3.1\Aocunxin.Learning.IRepository.pdb

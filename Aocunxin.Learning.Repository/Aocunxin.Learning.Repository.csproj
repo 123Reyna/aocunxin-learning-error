@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlSugarCore" Version="5.0.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Aocunxin.Learning.Common\Aocunxin.Learning.Common.csproj" />
+    <ProjectReference Include="..\Aocunxin.Learning.IRepository\Aocunxin.Learning.IRepository.csproj" />
+  </ItemGroup>
+
+</Project>

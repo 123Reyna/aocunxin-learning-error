@@ -1,0 +1,2072 @@
+--------------------------------
+2020/5/25 17:33:58|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT `actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`idx`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode` FROM `hsbill`  WHERE `idx` IN (@InPara0)   
+--------------------------------
+2020/5/25 17:47:03|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT `actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`idx`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode` FROM `hsbill`  WHERE `idx` IN (@InPara0)   
+--------------------------------
+2020/5/25 20:14:20|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT `actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`idx`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode` FROM `hsbill`  WHERE `idx` IN (@InPara0)   
+--------------------------------
+2020/5/25 20:32:28|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT `actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`idx`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode` FROM `hsbill`  WHERE `idx` IN (@InPara0)   
+--------------------------------
+2020/5/25 20:34:04|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT `actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`idx`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode` FROM `hsbill`  WHERE `idx` IN (@InPara0)   
+--------------------------------
+2020/5/26 9:55:55|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT `actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`idx`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode` FROM `hsbill`  WHERE `idx` IN (@InPara0)   
+--------------------------------
+2020/5/26 10:02:50|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT `actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`idx`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode` FROM `hsbill`  WHERE `idx` IN (@InPara0)   
+--------------------------------
+2020/5/26 10:04:52|
+【SQL参数】：@actdate:2020/5/26 2:02:45
+@arrive_date:2020/5/26 2:02:45
+@atd:2020/5/26 2:02:45
+@audit_desc:string
+@bgflags:string
+@bgglba_code:string
+@bgioflags:string
+@bgno:string
+@bgsc_code:string
+@billcode:string
+@blno:string
+@blno_checked:0
+@busi_type:string
+@ccode:string
+@cflags:string
+@change_date:2020/5/26 2:02:45
+@change_reasons:string
+@chargeback_date:2020/5/26 2:02:45
+@checkdate:2020/5/26 2:02:45
+@checker:string
+@com_insp_date:2020/5/26 2:02:45
+@contract_date:2020/5/26 2:02:45
+@contractno:string
+@contractno_print:string
+@correlation_no:string
+@correlation_reason_flag:string
+@country:string
+@counts:0
+@createdate:2020/5/26 2:02:45
+@createuser:string
+@custommaster:string
+@customs_clearance_date:2020/5/26 2:02:45
+@customs_draft_no:string
+@customs_draft_no_idx:string
+@customs_duties:0
+@customs_inspection_date:2020/5/26 2:02:45
+@customsdlrt_type:string
+@customsremarks:string
+@date_of_departure:2020/5/26 2:02:45
+@dc:string
+@delay_reasons:string
+@delayed_payment:0
+@delivery_clause:string
+@delivery_date:2020/5/26 2:02:45
+@delivery_port:string
+@destination:string
+@docucode:string
+@domestic_destination:string
+@domestic_signere_code:string
+@doubleup:string
+@driver:string
+@driver_telephone:string
+@electronic_check_date:2020/5/26 2:02:45
+@entqualif_no:string
+@entqualif_typecode:string
+@entqualif_typename:string
+@entryid:string
+@eta:2020/5/26 2:02:45
+@etd:2020/5/26 2:02:45
+@excise_tax:0
+@exemption:string
+@expcustomno:string
+@expdate:2020/5/26 2:02:45
+@extfee:0
+@extfee_currency:string
+@extfee_sign:string
+@freedate:2020/5/26 2:02:45
+@freight_currency:string
+@freight_sign:string
+@freight_value:0
+@gblgname:string
+@glbacode:string
+@glbg_inspection_code:string
+@glbgcode:string
+@glcode:string
+@glqdcode:string
+@grossweight:0
+@hawbcode:string
+@hs_date:2020/5/26 2:02:45
+@hs_destination:string
+@hs_insn:string
+@hs_passdate:2020/5/26 2:02:45
+@hs_status:string
+@hs_sys_code:string
+@hs_sys_code_merge:string
+@impcustomno:string
+@inspectionorg1:string
+@inspectionorg2:string
+@inspectionorg3:string
+@inspectionorg4:string
+@inv_date:2020/5/26 2:02:45
+@ioflags:string
+@ioport:string
+@iotype:string
+@ipc:string
+@jgcode:string
+@jgqycode:string
+@jgqyname:string
+@jy_inspection_code:string
+@jycode:string
+@jyqycode:string
+@jyqyname:string
+@kind_of_package:string
+@late_fee:0
+@lflags:string
+@license:string
+@listtype:string
+@load_dest_cd:string
+@loadport:string
+@lrcode:string
+@lrdwcode:string
+@lrdwname:string
+@maincode:string
+@manul_check_date:2020/5/26 2:02:45
+@markno:string
+@markno_file:string
+@markno_filename:string
+@modifier:string
+@modifydate:2020/5/26 2:02:45
+@odate:2020/5/26 2:02:45
+@opcode:string
+@orgid:string
+@origbox_flag:0
+@other_com_insp:string
+@other_customs_inspection:string
+@other_of_package:string
+@outimpcustomno:string
+@oversea_signere_address:string
+@oversea_signere_code:string
+@oversea_signere_contacts:string
+@oversea_signere_tel:string
+@overseas_consignee_code_ename:string
+@owner_code_scc:string
+@pay_taxes_date:2020/5/26 2:02:45
+@payment_sign:string
+@portofentry:string
+@premiums_currency:string
+@premiums_sign:string
+@premiums_value:0
+@pricesign:string
+@promisitem1:0
+@promisitem2:0
+@promisitem3:0
+@qdcode:string
+@qddate:2020/5/26 2:02:45
+@qdtype:string
+@qtp:0
+@qycode:string
+@rccode:string
+@relation_customsno:string
+@relationsign:string
+@remark:string
+@required_doc:string
+@sbcode:string
+@sbdw_inspection_code:string
+@sbdwcode:string
+@sbdwname:string
+@sbport:string
+@sccode:string
+@sheetcode:string
+@specdecl_flag:string
+@sqcode:string
+@status:string
+@storageplace:string
+@supervision_mode:string
+@supervision_mode2:string
+@sysid:string
+@tariff:0
+@totalvolume:0
+@trade_country:string
+@transportation:string
+@truckno:string
+@tycode:string
+@type:string
+@type_shipping:string
+@unite:string
+@user_invcode:string
+@value_added_tax:0
+@vessel:string
+@voyage:string
+@weight:0
+@xfdw_code:string
+@xfdw_inspection_code:string
+@xfdw_name:string
+@zm_mode:string
+
+【SQL语句】：INSERT INTO `hsbill`  
+           (`actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode`)
+     VALUES
+           (@actdate,@arrive_date,@atd,@audit_desc,@bgflags,@bgglba_code,@bgioflags,@bgno,@bgsc_code,@billcode,@blno,@blno_checked,@busi_type,@ccode,@cflags,@change_date,@change_reasons,@chargeback_date,@checkdate,@checker,@com_insp_date,@contract_date,@contractno,@contractno_print,@correlation_no,@correlation_reason_flag,@country,@counts,@createdate,@createuser,@custommaster,@customs_clearance_date,@customs_draft_no,@customs_draft_no_idx,@customs_duties,@customs_inspection_date,@customsdlrt_type,@customsremarks,@date_of_departure,@dc,@delay_reasons,@delayed_payment,@delivery_clause,@delivery_date,@delivery_port,@destination,@docucode,@domestic_destination,@domestic_signere_code,@doubleup,@driver,@driver_telephone,@electronic_check_date,@entqualif_no,@entqualif_typecode,@entqualif_typename,@entryid,@eta,@etd,@excise_tax,@exemption,@expcustomno,@expdate,@extfee,@extfee_currency,@extfee_sign,@freedate,@freight_currency,@freight_sign,@freight_value,@gblgname,@glbacode,@glbg_inspection_code,@glbgcode,@glcode,@glqdcode,@grossweight,@hawbcode,@hs_date,@hs_destination,@hs_insn,@hs_passdate,@hs_status,@hs_sys_code,@hs_sys_code_merge,@impcustomno,@inspectionorg1,@inspectionorg2,@inspectionorg3,@inspectionorg4,@inv_date,@ioflags,@ioport,@iotype,@ipc,@jgcode,@jgqycode,@jgqyname,@jy_inspection_code,@jycode,@jyqycode,@jyqyname,@kind_of_package,@late_fee,@lflags,@license,@listtype,@load_dest_cd,@loadport,@lrcode,@lrdwcode,@lrdwname,@maincode,@manul_check_date,@markno,@markno_file,@markno_filename,@modifier,@modifydate,@odate,@opcode,@orgid,@origbox_flag,@other_com_insp,@other_customs_inspection,@other_of_package,@outimpcustomno,@oversea_signere_address,@oversea_signere_code,@oversea_signere_contacts,@oversea_signere_tel,@overseas_consignee_code_ename,@owner_code_scc,@pay_taxes_date,@payment_sign,@portofentry,@premiums_currency,@premiums_sign,@premiums_value,@pricesign,@promisitem1,@promisitem2,@promisitem3,@qdcode,@qddate,@qdtype,@qtp,@qycode,@rccode,@relation_customsno,@relationsign,@remark,@required_doc,@sbcode,@sbdw_inspection_code,@sbdwcode,@sbdwname,@sbport,@sccode,@sheetcode,@specdecl_flag,@sqcode,@status,@storageplace,@supervision_mode,@supervision_mode2,@sysid,@tariff,@totalvolume,@trade_country,@transportation,@truckno,@tycode,@type,@type_shipping,@unite,@user_invcode,@value_added_tax,@vessel,@voyage,@weight,@xfdw_code,@xfdw_inspection_code,@xfdw_name,@zm_mode) ;SELECT LAST_INSERT_ID();
+--------------------------------
+2020/5/26 10:07:05|
+【SQL参数】：@actdate:2020/5/26 2:02:45
+@arrive_date:2020/5/26 2:02:45
+@atd:2020/5/26 2:02:45
+@audit_desc:string
+@bgflags:string
+@bgglba_code:string
+@bgioflags:string
+@bgno:string
+@bgsc_code:string
+@billcode:string
+@blno:string
+@blno_checked:0
+@busi_type:string
+@ccode:string
+@cflags:string
+@change_date:2020/5/26 2:02:45
+@change_reasons:string
+@chargeback_date:2020/5/26 2:02:45
+@checkdate:2020/5/26 2:02:45
+@checker:string
+@com_insp_date:2020/5/26 2:02:45
+@contract_date:2020/5/26 2:02:45
+@contractno:string
+@contractno_print:string
+@correlation_no:string
+@correlation_reason_flag:string
+@country:string
+@counts:0
+@createdate:2020/5/26 2:02:45
+@createuser:string
+@custommaster:string
+@customs_clearance_date:2020/5/26 2:02:45
+@customs_draft_no:string
+@customs_draft_no_idx:string
+@customs_duties:0
+@customs_inspection_date:2020/5/26 2:02:45
+@customsdlrt_type:string
+@customsremarks:string
+@date_of_departure:2020/5/26 2:02:45
+@dc:string
+@delay_reasons:string
+@delayed_payment:0
+@delivery_clause:string
+@delivery_date:2020/5/26 2:02:45
+@delivery_port:string
+@destination:string
+@docucode:string
+@domestic_destination:string
+@domestic_signere_code:string
+@doubleup:string
+@driver:string
+@driver_telephone:string
+@electronic_check_date:2020/5/26 2:02:45
+@entqualif_no:string
+@entqualif_typecode:string
+@entqualif_typename:string
+@entryid:string
+@eta:2020/5/26 2:02:45
+@etd:2020/5/26 2:02:45
+@excise_tax:0
+@exemption:string
+@expcustomno:string
+@expdate:2020/5/26 2:02:45
+@extfee:0
+@extfee_currency:string
+@extfee_sign:string
+@freedate:2020/5/26 2:02:45
+@freight_currency:string
+@freight_sign:string
+@freight_value:0
+@gblgname:string
+@glbacode:string
+@glbg_inspection_code:string
+@glbgcode:string
+@glcode:string
+@glqdcode:string
+@grossweight:0
+@hawbcode:string
+@hs_date:2020/5/26 2:02:45
+@hs_destination:string
+@hs_insn:string
+@hs_passdate:2020/5/26 2:02:45
+@hs_status:string
+@hs_sys_code:string
+@hs_sys_code_merge:string
+@impcustomno:string
+@inspectionorg1:string
+@inspectionorg2:string
+@inspectionorg3:string
+@inspectionorg4:string
+@inv_date:2020/5/26 2:02:45
+@ioflags:string
+@ioport:string
+@iotype:string
+@ipc:string
+@jgcode:string
+@jgqycode:string
+@jgqyname:string
+@jy_inspection_code:string
+@jycode:string
+@jyqycode:string
+@jyqyname:string
+@kind_of_package:string
+@late_fee:0
+@lflags:string
+@license:string
+@listtype:string
+@load_dest_cd:string
+@loadport:string
+@lrcode:string
+@lrdwcode:string
+@lrdwname:string
+@maincode:string
+@manul_check_date:2020/5/26 2:02:45
+@markno:string
+@markno_file:string
+@markno_filename:string
+@modifier:string
+@modifydate:2020/5/26 2:02:45
+@odate:2020/5/26 2:02:45
+@opcode:string
+@orgid:string
+@origbox_flag:0
+@other_com_insp:string
+@other_customs_inspection:string
+@other_of_package:string
+@outimpcustomno:string
+@oversea_signere_address:string
+@oversea_signere_code:string
+@oversea_signere_contacts:string
+@oversea_signere_tel:string
+@overseas_consignee_code_ename:string
+@owner_code_scc:string
+@pay_taxes_date:2020/5/26 2:02:45
+@payment_sign:string
+@portofentry:string
+@premiums_currency:string
+@premiums_sign:string
+@premiums_value:0
+@pricesign:string
+@promisitem1:0
+@promisitem2:0
+@promisitem3:0
+@qdcode:string
+@qddate:2020/5/26 2:02:45
+@qdtype:string
+@qtp:0
+@qycode:string
+@rccode:string
+@relation_customsno:string
+@relationsign:string
+@remark:string
+@required_doc:string
+@sbcode:string
+@sbdw_inspection_code:string
+@sbdwcode:string
+@sbdwname:string
+@sbport:string
+@sccode:string
+@sheetcode:string
+@specdecl_flag:string
+@sqcode:string
+@status:string
+@storageplace:string
+@supervision_mode:string
+@supervision_mode2:string
+@sysid:string
+@tariff:0
+@totalvolume:0
+@trade_country:string
+@transportation:string
+@truckno:string
+@tycode:string
+@type:string
+@type_shipping:string
+@unite:string
+@user_invcode:string
+@value_added_tax:0
+@vessel:string
+@voyage:string
+@weight:0
+@xfdw_code:string
+@xfdw_inspection_code:string
+@xfdw_name:string
+@zm_mode:string
+
+【SQL语句】：INSERT INTO `hsbill`  
+           (`actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode`)
+     VALUES
+           (@actdate,@arrive_date,@atd,@audit_desc,@bgflags,@bgglba_code,@bgioflags,@bgno,@bgsc_code,@billcode,@blno,@blno_checked,@busi_type,@ccode,@cflags,@change_date,@change_reasons,@chargeback_date,@checkdate,@checker,@com_insp_date,@contract_date,@contractno,@contractno_print,@correlation_no,@correlation_reason_flag,@country,@counts,@createdate,@createuser,@custommaster,@customs_clearance_date,@customs_draft_no,@customs_draft_no_idx,@customs_duties,@customs_inspection_date,@customsdlrt_type,@customsremarks,@date_of_departure,@dc,@delay_reasons,@delayed_payment,@delivery_clause,@delivery_date,@delivery_port,@destination,@docucode,@domestic_destination,@domestic_signere_code,@doubleup,@driver,@driver_telephone,@electronic_check_date,@entqualif_no,@entqualif_typecode,@entqualif_typename,@entryid,@eta,@etd,@excise_tax,@exemption,@expcustomno,@expdate,@extfee,@extfee_currency,@extfee_sign,@freedate,@freight_currency,@freight_sign,@freight_value,@gblgname,@glbacode,@glbg_inspection_code,@glbgcode,@glcode,@glqdcode,@grossweight,@hawbcode,@hs_date,@hs_destination,@hs_insn,@hs_passdate,@hs_status,@hs_sys_code,@hs_sys_code_merge,@impcustomno,@inspectionorg1,@inspectionorg2,@inspectionorg3,@inspectionorg4,@inv_date,@ioflags,@ioport,@iotype,@ipc,@jgcode,@jgqycode,@jgqyname,@jy_inspection_code,@jycode,@jyqycode,@jyqyname,@kind_of_package,@late_fee,@lflags,@license,@listtype,@load_dest_cd,@loadport,@lrcode,@lrdwcode,@lrdwname,@maincode,@manul_check_date,@markno,@markno_file,@markno_filename,@modifier,@modifydate,@odate,@opcode,@orgid,@origbox_flag,@other_com_insp,@other_customs_inspection,@other_of_package,@outimpcustomno,@oversea_signere_address,@oversea_signere_code,@oversea_signere_contacts,@oversea_signere_tel,@overseas_consignee_code_ename,@owner_code_scc,@pay_taxes_date,@payment_sign,@portofentry,@premiums_currency,@premiums_sign,@premiums_value,@pricesign,@promisitem1,@promisitem2,@promisitem3,@qdcode,@qddate,@qdtype,@qtp,@qycode,@rccode,@relation_customsno,@relationsign,@remark,@required_doc,@sbcode,@sbdw_inspection_code,@sbdwcode,@sbdwname,@sbport,@sccode,@sheetcode,@specdecl_flag,@sqcode,@status,@storageplace,@supervision_mode,@supervision_mode2,@sysid,@tariff,@totalvolume,@trade_country,@transportation,@truckno,@tycode,@type,@type_shipping,@unite,@user_invcode,@value_added_tax,@vessel,@voyage,@weight,@xfdw_code,@xfdw_inspection_code,@xfdw_name,@zm_mode) ;SELECT LAST_INSERT_ID();
+--------------------------------
+2020/5/26 10:08:09|
+【SQL参数】：@actdate:2020/5/26 2:02:45
+@arrive_date:2020/5/26 2:02:45
+@atd:2020/5/26 2:02:45
+@audit_desc:string
+@bgflags:string
+@bgglba_code:string
+@bgioflags:string
+@bgno:string
+@bgsc_code:string
+@billcode:string
+@blno:string
+@blno_checked:0
+@busi_type:string
+@ccode:string
+@cflags:string
+@change_date:2020/5/26 2:02:45
+@change_reasons:string
+@chargeback_date:2020/5/26 2:02:45
+@checkdate:2020/5/26 2:02:45
+@checker:string
+@com_insp_date:2020/5/26 2:02:45
+@contract_date:2020/5/26 2:02:45
+@contractno:string
+@contractno_print:string
+@correlation_no:string
+@correlation_reason_flag:string
+@country:string
+@counts:0
+@createdate:2020/5/26 2:02:45
+@createuser:string
+@custommaster:string
+@customs_clearance_date:2020/5/26 2:02:45
+@customs_draft_no:string
+@customs_draft_no_idx:string
+@customs_duties:0
+@customs_inspection_date:2020/5/26 2:02:45
+@customsdlrt_type:string
+@customsremarks:string
+@date_of_departure:2020/5/26 2:02:45
+@dc:string
+@delay_reasons:string
+@delayed_payment:0
+@delivery_clause:string
+@delivery_date:2020/5/26 2:02:45
+@delivery_port:string
+@destination:string
+@docucode:string
+@domestic_destination:string
+@domestic_signere_code:string
+@doubleup:string
+@driver:string
+@driver_telephone:string
+@electronic_check_date:2020/5/26 2:02:45
+@entqualif_no:string
+@entqualif_typecode:string
+@entqualif_typename:string
+@entryid:string
+@eta:2020/5/26 2:02:45
+@etd:2020/5/26 2:02:45
+@excise_tax:0
+@exemption:string
+@expcustomno:string
+@expdate:2020/5/26 2:02:45
+@extfee:0
+@extfee_currency:string
+@extfee_sign:string
+@freedate:2020/5/26 2:02:45
+@freight_currency:string
+@freight_sign:string
+@freight_value:0
+@gblgname:string
+@glbacode:string
+@glbg_inspection_code:string
+@glbgcode:string
+@glcode:string
+@glqdcode:string
+@grossweight:0
+@hawbcode:string
+@hs_date:2020/5/26 2:02:45
+@hs_destination:string
+@hs_insn:string
+@hs_passdate:2020/5/26 2:02:45
+@hs_status:string
+@hs_sys_code:string
+@hs_sys_code_merge:string
+@impcustomno:string
+@inspectionorg1:string
+@inspectionorg2:string
+@inspectionorg3:string
+@inspectionorg4:string
+@inv_date:2020/5/26 2:02:45
+@ioflags:string
+@ioport:string
+@iotype:string
+@ipc:string
+@jgcode:string
+@jgqycode:string
+@jgqyname:string
+@jy_inspection_code:string
+@jycode:string
+@jyqycode:string
+@jyqyname:string
+@kind_of_package:string
+@late_fee:0
+@lflags:string
+@license:string
+@listtype:string
+@load_dest_cd:string
+@loadport:string
+@lrcode:string
+@lrdwcode:string
+@lrdwname:string
+@maincode:string
+@manul_check_date:2020/5/26 2:02:45
+@markno:string
+@markno_file:string
+@markno_filename:string
+@modifier:string
+@modifydate:2020/5/26 2:02:45
+@odate:2020/5/26 2:02:45
+@opcode:string
+@orgid:string
+@origbox_flag:0
+@other_com_insp:string
+@other_customs_inspection:string
+@other_of_package:string
+@outimpcustomno:string
+@oversea_signere_address:string
+@oversea_signere_code:string
+@oversea_signere_contacts:string
+@oversea_signere_tel:string
+@overseas_consignee_code_ename:string
+@owner_code_scc:string
+@pay_taxes_date:2020/5/26 2:02:45
+@payment_sign:string
+@portofentry:string
+@premiums_currency:string
+@premiums_sign:string
+@premiums_value:0
+@pricesign:string
+@promisitem1:0
+@promisitem2:0
+@promisitem3:0
+@qdcode:string
+@qddate:2020/5/26 2:02:45
+@qdtype:string
+@qtp:0
+@qycode:string
+@rccode:string
+@relation_customsno:string
+@relationsign:string
+@remark:string
+@required_doc:string
+@sbcode:string
+@sbdw_inspection_code:string
+@sbdwcode:string
+@sbdwname:string
+@sbport:string
+@sccode:string
+@sheetcode:string
+@specdecl_flag:string
+@sqcode:string
+@status:string
+@storageplace:string
+@supervision_mode:string
+@supervision_mode2:string
+@sysid:string
+@tariff:0
+@totalvolume:0
+@trade_country:string
+@transportation:string
+@truckno:string
+@tycode:string
+@type:string
+@type_shipping:string
+@unite:string
+@user_invcode:string
+@value_added_tax:0
+@vessel:string
+@voyage:string
+@weight:0
+@xfdw_code:string
+@xfdw_inspection_code:string
+@xfdw_name:string
+@zm_mode:string
+
+【SQL语句】：INSERT INTO `hsbill`  
+           (`actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode`)
+     VALUES
+           (@actdate,@arrive_date,@atd,@audit_desc,@bgflags,@bgglba_code,@bgioflags,@bgno,@bgsc_code,@billcode,@blno,@blno_checked,@busi_type,@ccode,@cflags,@change_date,@change_reasons,@chargeback_date,@checkdate,@checker,@com_insp_date,@contract_date,@contractno,@contractno_print,@correlation_no,@correlation_reason_flag,@country,@counts,@createdate,@createuser,@custommaster,@customs_clearance_date,@customs_draft_no,@customs_draft_no_idx,@customs_duties,@customs_inspection_date,@customsdlrt_type,@customsremarks,@date_of_departure,@dc,@delay_reasons,@delayed_payment,@delivery_clause,@delivery_date,@delivery_port,@destination,@docucode,@domestic_destination,@domestic_signere_code,@doubleup,@driver,@driver_telephone,@electronic_check_date,@entqualif_no,@entqualif_typecode,@entqualif_typename,@entryid,@eta,@etd,@excise_tax,@exemption,@expcustomno,@expdate,@extfee,@extfee_currency,@extfee_sign,@freedate,@freight_currency,@freight_sign,@freight_value,@gblgname,@glbacode,@glbg_inspection_code,@glbgcode,@glcode,@glqdcode,@grossweight,@hawbcode,@hs_date,@hs_destination,@hs_insn,@hs_passdate,@hs_status,@hs_sys_code,@hs_sys_code_merge,@impcustomno,@inspectionorg1,@inspectionorg2,@inspectionorg3,@inspectionorg4,@inv_date,@ioflags,@ioport,@iotype,@ipc,@jgcode,@jgqycode,@jgqyname,@jy_inspection_code,@jycode,@jyqycode,@jyqyname,@kind_of_package,@late_fee,@lflags,@license,@listtype,@load_dest_cd,@loadport,@lrcode,@lrdwcode,@lrdwname,@maincode,@manul_check_date,@markno,@markno_file,@markno_filename,@modifier,@modifydate,@odate,@opcode,@orgid,@origbox_flag,@other_com_insp,@other_customs_inspection,@other_of_package,@outimpcustomno,@oversea_signere_address,@oversea_signere_code,@oversea_signere_contacts,@oversea_signere_tel,@overseas_consignee_code_ename,@owner_code_scc,@pay_taxes_date,@payment_sign,@portofentry,@premiums_currency,@premiums_sign,@premiums_value,@pricesign,@promisitem1,@promisitem2,@promisitem3,@qdcode,@qddate,@qdtype,@qtp,@qycode,@rccode,@relation_customsno,@relationsign,@remark,@required_doc,@sbcode,@sbdw_inspection_code,@sbdwcode,@sbdwname,@sbport,@sccode,@sheetcode,@specdecl_flag,@sqcode,@status,@storageplace,@supervision_mode,@supervision_mode2,@sysid,@tariff,@totalvolume,@trade_country,@transportation,@truckno,@tycode,@type,@type_shipping,@unite,@user_invcode,@value_added_tax,@vessel,@voyage,@weight,@xfdw_code,@xfdw_inspection_code,@xfdw_name,@zm_mode) ;SELECT LAST_INSERT_ID();
+--------------------------------
+2020/5/26 10:12:43|
+【SQL参数】：@actdate:2020/5/26 2:02:45
+@arrive_date:2020/5/26 2:02:45
+@atd:2020/5/26 2:02:45
+@audit_desc:string
+@bgflags:string
+@bgglba_code:string
+@bgioflags:string
+@bgno:string
+@bgsc_code:string
+@billcode:string
+@blno:string
+@blno_checked:0
+@busi_type:string
+@ccode:string
+@cflags:string
+@change_date:2020/5/26 2:02:45
+@change_reasons:string
+@chargeback_date:2020/5/26 2:02:45
+@checkdate:2020/5/26 2:02:45
+@checker:string
+@com_insp_date:2020/5/26 2:02:45
+@contract_date:2020/5/26 2:02:45
+@contractno:string
+@contractno_print:string
+@correlation_no:string
+@correlation_reason_flag:string
+@country:string
+@counts:0
+@createdate:2020/5/26 2:02:45
+@createuser:string
+@custommaster:string
+@customs_clearance_date:2020/5/26 2:02:45
+@customs_draft_no:string
+@customs_draft_no_idx:string
+@customs_duties:0
+@customs_inspection_date:2020/5/26 2:02:45
+@customsdlrt_type:string
+@customsremarks:string
+@date_of_departure:2020/5/26 2:02:45
+@dc:string
+@delay_reasons:string
+@delayed_payment:0
+@delivery_clause:string
+@delivery_date:2020/5/26 2:02:45
+@delivery_port:string
+@destination:string
+@docucode:string
+@domestic_destination:string
+@domestic_signere_code:string
+@doubleup:string
+@driver:string
+@driver_telephone:string
+@electronic_check_date:2020/5/26 2:02:45
+@entqualif_no:string
+@entqualif_typecode:string
+@entqualif_typename:string
+@entryid:string
+@eta:2020/5/26 2:02:45
+@etd:2020/5/26 2:02:45
+@excise_tax:0
+@exemption:string
+@expcustomno:string
+@expdate:2020/5/26 2:02:45
+@extfee:0
+@extfee_currency:string
+@extfee_sign:string
+@freedate:2020/5/26 2:02:45
+@freight_currency:string
+@freight_sign:string
+@freight_value:0
+@gblgname:string
+@glbacode:string
+@glbg_inspection_code:string
+@glbgcode:string
+@glcode:string
+@glqdcode:string
+@grossweight:0
+@hawbcode:string
+@hs_date:2020/5/26 2:02:45
+@hs_destination:string
+@hs_insn:string
+@hs_passdate:2020/5/26 2:02:45
+@hs_status:string
+@hs_sys_code:string
+@hs_sys_code_merge:string
+@impcustomno:string
+@inspectionorg1:string
+@inspectionorg2:string
+@inspectionorg3:string
+@inspectionorg4:string
+@inv_date:2020/5/26 2:02:45
+@ioflags:string
+@ioport:string
+@iotype:string
+@ipc:string
+@jgcode:string
+@jgqycode:string
+@jgqyname:string
+@jy_inspection_code:string
+@jycode:string
+@jyqycode:string
+@jyqyname:string
+@kind_of_package:string
+@late_fee:0
+@lflags:string
+@license:string
+@listtype:string
+@load_dest_cd:string
+@loadport:string
+@lrcode:string
+@lrdwcode:string
+@lrdwname:string
+@maincode:string
+@manul_check_date:2020/5/26 2:02:45
+@markno:string
+@markno_file:string
+@markno_filename:string
+@modifier:string
+@modifydate:2020/5/26 2:02:45
+@odate:2020/5/26 2:02:45
+@opcode:string
+@orgid:string
+@origbox_flag:0
+@other_com_insp:string
+@other_customs_inspection:string
+@other_of_package:string
+@outimpcustomno:string
+@oversea_signere_address:string
+@oversea_signere_code:string
+@oversea_signere_contacts:string
+@oversea_signere_tel:string
+@overseas_consignee_code_ename:string
+@owner_code_scc:string
+@pay_taxes_date:2020/5/26 2:02:45
+@payment_sign:string
+@portofentry:string
+@premiums_currency:string
+@premiums_sign:string
+@premiums_value:0
+@pricesign:string
+@promisitem1:0
+@promisitem2:0
+@promisitem3:0
+@qdcode:string
+@qddate:2020/5/26 2:02:45
+@qdtype:string
+@qtp:0
+@qycode:string
+@rccode:string
+@relation_customsno:string
+@relationsign:string
+@remark:string
+@required_doc:string
+@sbcode:string
+@sbdw_inspection_code:string
+@sbdwcode:string
+@sbdwname:string
+@sbport:string
+@sccode:string
+@sheetcode:string
+@specdecl_flag:string
+@sqcode:string
+@status:string
+@storageplace:string
+@supervision_mode:string
+@supervision_mode2:string
+@sysid:string
+@tariff:0
+@totalvolume:0
+@trade_country:string
+@transportation:string
+@truckno:string
+@tycode:string
+@type:string
+@type_shipping:string
+@unite:string
+@user_invcode:string
+@value_added_tax:0
+@vessel:string
+@voyage:string
+@weight:0
+@xfdw_code:string
+@xfdw_inspection_code:string
+@xfdw_name:string
+@zm_mode:string
+
+【SQL语句】：INSERT INTO `hsbill`  
+           (`actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode`)
+     VALUES
+           (@actdate,@arrive_date,@atd,@audit_desc,@bgflags,@bgglba_code,@bgioflags,@bgno,@bgsc_code,@billcode,@blno,@blno_checked,@busi_type,@ccode,@cflags,@change_date,@change_reasons,@chargeback_date,@checkdate,@checker,@com_insp_date,@contract_date,@contractno,@contractno_print,@correlation_no,@correlation_reason_flag,@country,@counts,@createdate,@createuser,@custommaster,@customs_clearance_date,@customs_draft_no,@customs_draft_no_idx,@customs_duties,@customs_inspection_date,@customsdlrt_type,@customsremarks,@date_of_departure,@dc,@delay_reasons,@delayed_payment,@delivery_clause,@delivery_date,@delivery_port,@destination,@docucode,@domestic_destination,@domestic_signere_code,@doubleup,@driver,@driver_telephone,@electronic_check_date,@entqualif_no,@entqualif_typecode,@entqualif_typename,@entryid,@eta,@etd,@excise_tax,@exemption,@expcustomno,@expdate,@extfee,@extfee_currency,@extfee_sign,@freedate,@freight_currency,@freight_sign,@freight_value,@gblgname,@glbacode,@glbg_inspection_code,@glbgcode,@glcode,@glqdcode,@grossweight,@hawbcode,@hs_date,@hs_destination,@hs_insn,@hs_passdate,@hs_status,@hs_sys_code,@hs_sys_code_merge,@impcustomno,@inspectionorg1,@inspectionorg2,@inspectionorg3,@inspectionorg4,@inv_date,@ioflags,@ioport,@iotype,@ipc,@jgcode,@jgqycode,@jgqyname,@jy_inspection_code,@jycode,@jyqycode,@jyqyname,@kind_of_package,@late_fee,@lflags,@license,@listtype,@load_dest_cd,@loadport,@lrcode,@lrdwcode,@lrdwname,@maincode,@manul_check_date,@markno,@markno_file,@markno_filename,@modifier,@modifydate,@odate,@opcode,@orgid,@origbox_flag,@other_com_insp,@other_customs_inspection,@other_of_package,@outimpcustomno,@oversea_signere_address,@oversea_signere_code,@oversea_signere_contacts,@oversea_signere_tel,@overseas_consignee_code_ename,@owner_code_scc,@pay_taxes_date,@payment_sign,@portofentry,@premiums_currency,@premiums_sign,@premiums_value,@pricesign,@promisitem1,@promisitem2,@promisitem3,@qdcode,@qddate,@qdtype,@qtp,@qycode,@rccode,@relation_customsno,@relationsign,@remark,@required_doc,@sbcode,@sbdw_inspection_code,@sbdwcode,@sbdwname,@sbport,@sccode,@sheetcode,@specdecl_flag,@sqcode,@status,@storageplace,@supervision_mode,@supervision_mode2,@sysid,@tariff,@totalvolume,@trade_country,@transportation,@truckno,@tycode,@type,@type_shipping,@unite,@user_invcode,@value_added_tax,@vessel,@voyage,@weight,@xfdw_code,@xfdw_inspection_code,@xfdw_name,@zm_mode) ;SELECT LAST_INSERT_ID();
+--------------------------------
+2020/5/26 10:13:16|
+【SQL参数】：@actdate:2020/5/26 2:02:45
+@arrive_date:2020/5/26 2:02:45
+@atd:2020/5/26 2:02:45
+@audit_desc:string
+@bgflags:string
+@bgglba_code:string
+@bgioflags:string
+@bgno:string
+@bgsc_code:string
+@billcode:string
+@blno:string
+@blno_checked:0
+@busi_type:string
+@ccode:string
+@cflags:string
+@change_date:2020/5/26 2:02:45
+@change_reasons:string
+@chargeback_date:2020/5/26 2:02:45
+@checkdate:2020/5/26 2:02:45
+@checker:string
+@com_insp_date:2020/5/26 2:02:45
+@contract_date:2020/5/26 2:02:45
+@contractno:string
+@contractno_print:string
+@correlation_no:string
+@correlation_reason_flag:string
+@country:string
+@counts:0
+@createdate:2020/5/26 2:02:45
+@createuser:string
+@custommaster:string
+@customs_clearance_date:2020/5/26 2:02:45
+@customs_draft_no:string
+@customs_draft_no_idx:string
+@customs_duties:0
+@customs_inspection_date:2020/5/26 2:02:45
+@customsdlrt_type:string
+@customsremarks:string
+@date_of_departure:2020/5/26 2:02:45
+@dc:string
+@delay_reasons:string
+@delayed_payment:0
+@delivery_clause:string
+@delivery_date:2020/5/26 2:02:45
+@delivery_port:string
+@destination:string
+@docucode:string
+@domestic_destination:string
+@domestic_signere_code:string
+@doubleup:string
+@driver:string
+@driver_telephone:string
+@electronic_check_date:2020/5/26 2:02:45
+@entqualif_no:string
+@entqualif_typecode:string
+@entqualif_typename:string
+@entryid:string
+@eta:2020/5/26 2:02:45
+@etd:2020/5/26 2:02:45
+@excise_tax:0
+@exemption:string
+@expcustomno:string
+@expdate:2020/5/26 2:02:45
+@extfee:0
+@extfee_currency:string
+@extfee_sign:string
+@freedate:2020/5/26 2:02:45
+@freight_currency:string
+@freight_sign:string
+@freight_value:0
+@gblgname:string
+@glbacode:string
+@glbg_inspection_code:string
+@glbgcode:string
+@glcode:string
+@glqdcode:string
+@grossweight:0
+@hawbcode:string
+@hs_date:2020/5/26 2:02:45
+@hs_destination:string
+@hs_insn:string
+@hs_passdate:2020/5/26 2:02:45
+@hs_status:string
+@hs_sys_code:string
+@hs_sys_code_merge:string
+@impcustomno:string
+@inspectionorg1:string
+@inspectionorg2:string
+@inspectionorg3:string
+@inspectionorg4:string
+@inv_date:2020/5/26 2:02:45
+@ioflags:string
+@ioport:string
+@iotype:string
+@ipc:string
+@jgcode:string
+@jgqycode:string
+@jgqyname:string
+@jy_inspection_code:string
+@jycode:string
+@jyqycode:string
+@jyqyname:string
+@kind_of_package:string
+@late_fee:0
+@lflags:string
+@license:string
+@listtype:string
+@load_dest_cd:string
+@loadport:string
+@lrcode:string
+@lrdwcode:string
+@lrdwname:string
+@maincode:string
+@manul_check_date:2020/5/26 2:02:45
+@markno:string
+@markno_file:string
+@markno_filename:string
+@modifier:string
+@modifydate:2020/5/26 2:02:45
+@odate:2020/5/26 2:02:45
+@opcode:string
+@orgid:string
+@origbox_flag:0
+@other_com_insp:string
+@other_customs_inspection:string
+@other_of_package:string
+@outimpcustomno:string
+@oversea_signere_address:string
+@oversea_signere_code:string
+@oversea_signere_contacts:string
+@oversea_signere_tel:string
+@overseas_consignee_code_ename:string
+@owner_code_scc:string
+@pay_taxes_date:2020/5/26 2:02:45
+@payment_sign:string
+@portofentry:string
+@premiums_currency:string
+@premiums_sign:string
+@premiums_value:0
+@pricesign:string
+@promisitem1:0
+@promisitem2:0
+@promisitem3:0
+@qdcode:string
+@qddate:2020/5/26 2:02:45
+@qdtype:string
+@qtp:0
+@qycode:string
+@rccode:string
+@relation_customsno:string
+@relationsign:string
+@remark:string
+@required_doc:string
+@sbcode:string
+@sbdw_inspection_code:string
+@sbdwcode:string
+@sbdwname:string
+@sbport:string
+@sccode:string
+@sheetcode:string
+@specdecl_flag:string
+@sqcode:string
+@status:string
+@storageplace:string
+@supervision_mode:string
+@supervision_mode2:string
+@sysid:string
+@tariff:0
+@totalvolume:0
+@trade_country:string
+@transportation:string
+@truckno:string
+@tycode:string
+@type:string
+@type_shipping:string
+@unite:string
+@user_invcode:string
+@value_added_tax:0
+@vessel:string
+@voyage:string
+@weight:0
+@xfdw_code:string
+@xfdw_inspection_code:string
+@xfdw_name:string
+@zm_mode:string
+
+【SQL语句】：INSERT INTO `hsbill`  
+           (`actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode`)
+     VALUES
+           (@actdate,@arrive_date,@atd,@audit_desc,@bgflags,@bgglba_code,@bgioflags,@bgno,@bgsc_code,@billcode,@blno,@blno_checked,@busi_type,@ccode,@cflags,@change_date,@change_reasons,@chargeback_date,@checkdate,@checker,@com_insp_date,@contract_date,@contractno,@contractno_print,@correlation_no,@correlation_reason_flag,@country,@counts,@createdate,@createuser,@custommaster,@customs_clearance_date,@customs_draft_no,@customs_draft_no_idx,@customs_duties,@customs_inspection_date,@customsdlrt_type,@customsremarks,@date_of_departure,@dc,@delay_reasons,@delayed_payment,@delivery_clause,@delivery_date,@delivery_port,@destination,@docucode,@domestic_destination,@domestic_signere_code,@doubleup,@driver,@driver_telephone,@electronic_check_date,@entqualif_no,@entqualif_typecode,@entqualif_typename,@entryid,@eta,@etd,@excise_tax,@exemption,@expcustomno,@expdate,@extfee,@extfee_currency,@extfee_sign,@freedate,@freight_currency,@freight_sign,@freight_value,@gblgname,@glbacode,@glbg_inspection_code,@glbgcode,@glcode,@glqdcode,@grossweight,@hawbcode,@hs_date,@hs_destination,@hs_insn,@hs_passdate,@hs_status,@hs_sys_code,@hs_sys_code_merge,@impcustomno,@inspectionorg1,@inspectionorg2,@inspectionorg3,@inspectionorg4,@inv_date,@ioflags,@ioport,@iotype,@ipc,@jgcode,@jgqycode,@jgqyname,@jy_inspection_code,@jycode,@jyqycode,@jyqyname,@kind_of_package,@late_fee,@lflags,@license,@listtype,@load_dest_cd,@loadport,@lrcode,@lrdwcode,@lrdwname,@maincode,@manul_check_date,@markno,@markno_file,@markno_filename,@modifier,@modifydate,@odate,@opcode,@orgid,@origbox_flag,@other_com_insp,@other_customs_inspection,@other_of_package,@outimpcustomno,@oversea_signere_address,@oversea_signere_code,@oversea_signere_contacts,@oversea_signere_tel,@overseas_consignee_code_ename,@owner_code_scc,@pay_taxes_date,@payment_sign,@portofentry,@premiums_currency,@premiums_sign,@premiums_value,@pricesign,@promisitem1,@promisitem2,@promisitem3,@qdcode,@qddate,@qdtype,@qtp,@qycode,@rccode,@relation_customsno,@relationsign,@remark,@required_doc,@sbcode,@sbdw_inspection_code,@sbdwcode,@sbdwname,@sbport,@sccode,@sheetcode,@specdecl_flag,@sqcode,@status,@storageplace,@supervision_mode,@supervision_mode2,@sysid,@tariff,@totalvolume,@trade_country,@transportation,@truckno,@tycode,@type,@type_shipping,@unite,@user_invcode,@value_added_tax,@vessel,@voyage,@weight,@xfdw_code,@xfdw_inspection_code,@xfdw_name,@zm_mode) ;SELECT LAST_INSERT_ID();
+--------------------------------
+2020/5/26 11:55:44|
+【SQL参数】：@actdate:2020/5/26 3:55:41
+@arrive_date:2020/5/26 3:55:41
+@atd:2020/5/26 3:55:41
+@audit_desc:string
+@bgflags:string
+@bgglba_code:string
+@bgioflags:string
+@bgno:string
+@bgsc_code:string
+@billcode:string
+@blno:string
+@blno_checked:0
+@busi_type:string
+@ccode:string
+@cflags:string
+@change_date:2020/5/26 3:55:41
+@change_reasons:string
+@chargeback_date:2020/5/26 3:55:41
+@checkdate:2020/5/26 3:55:41
+@checker:string
+@com_insp_date:2020/5/26 3:55:41
+@contract_date:2020/5/26 3:55:41
+@contractno:string
+@contractno_print:string
+@correlation_no:string
+@correlation_reason_flag:string
+@country:string
+@counts:0
+@createdate:2020/5/26 3:55:41
+@createuser:string
+@custommaster:string
+@customs_clearance_date:2020/5/26 3:55:41
+@customs_draft_no:string
+@customs_draft_no_idx:string
+@customs_duties:0
+@customs_inspection_date:2020/5/26 3:55:41
+@customsdlrt_type:string
+@customsremarks:string
+@date_of_departure:2020/5/26 3:55:41
+@dc:string
+@delay_reasons:string
+@delayed_payment:0
+@delivery_clause:string
+@delivery_date:2020/5/26 3:55:41
+@delivery_port:string
+@destination:string
+@docucode:string
+@domestic_destination:string
+@domestic_signere_code:string
+@doubleup:string
+@driver:string
+@driver_telephone:string
+@electronic_check_date:2020/5/26 3:55:41
+@entqualif_no:string
+@entqualif_typecode:string
+@entqualif_typename:string
+@entryid:string
+@eta:2020/5/26 3:55:41
+@etd:2020/5/26 3:55:41
+@excise_tax:0
+@exemption:string
+@expcustomno:string
+@expdate:2020/5/26 3:55:41
+@extfee:0
+@extfee_currency:string
+@extfee_sign:string
+@freedate:2020/5/26 3:55:41
+@freight_currency:string
+@freight_sign:string
+@freight_value:0
+@gblgname:string
+@glbacode:string
+@glbg_inspection_code:string
+@glbgcode:string
+@glcode:string
+@glqdcode:string
+@grossweight:0
+@hawbcode:string
+@hs_date:2020/5/26 3:55:41
+@hs_destination:string
+@hs_insn:string
+@hs_passdate:2020/5/26 3:55:41
+@hs_status:string
+@hs_sys_code:string
+@hs_sys_code_merge:string
+@impcustomno:string
+@inspectionorg1:string
+@inspectionorg2:string
+@inspectionorg3:string
+@inspectionorg4:string
+@inv_date:2020/5/26 3:55:41
+@ioflags:string
+@ioport:string
+@iotype:string
+@ipc:string
+@jgcode:string
+@jgqycode:string
+@jgqyname:string
+@jy_inspection_code:string
+@jycode:string
+@jyqycode:string
+@jyqyname:string
+@kind_of_package:string
+@late_fee:0
+@lflags:string
+@license:string
+@listtype:string
+@load_dest_cd:string
+@loadport:string
+@lrcode:string
+@lrdwcode:string
+@lrdwname:string
+@maincode:string
+@manul_check_date:2020/5/26 3:55:41
+@markno:string
+@markno_file:string
+@markno_filename:string
+@modifier:string
+@modifydate:2020/5/26 3:55:41
+@odate:2020/5/26 3:55:41
+@opcode:string
+@orgid:string
+@origbox_flag:0
+@other_com_insp:string
+@other_customs_inspection:string
+@other_of_package:string
+@outimpcustomno:string
+@oversea_signere_address:string
+@oversea_signere_code:string
+@oversea_signere_contacts:string
+@oversea_signere_tel:string
+@overseas_consignee_code_ename:string
+@owner_code_scc:string
+@pay_taxes_date:2020/5/26 3:55:41
+@payment_sign:string
+@portofentry:string
+@premiums_currency:string
+@premiums_sign:string
+@premiums_value:0
+@pricesign:string
+@promisitem1:0
+@promisitem2:0
+@promisitem3:0
+@qdcode:string
+@qddate:2020/5/26 3:55:41
+@qdtype:string
+@qtp:0
+@qycode:string
+@rccode:string
+@relation_customsno:string
+@relationsign:string
+@remark:string
+@required_doc:string
+@sbcode:string
+@sbdw_inspection_code:string
+@sbdwcode:string
+@sbdwname:string
+@sbport:string
+@sccode:string
+@sheetcode:string
+@specdecl_flag:string
+@sqcode:string
+@status:string
+@storageplace:string
+@supervision_mode:string
+@supervision_mode2:string
+@sysid:string
+@tariff:0
+@totalvolume:0
+@trade_country:string
+@transportation:string
+@truckno:string
+@tycode:string
+@type:string
+@type_shipping:string
+@unite:string
+@user_invcode:string
+@value_added_tax:0
+@vessel:string
+@voyage:string
+@weight:0
+@xfdw_code:string
+@xfdw_inspection_code:string
+@xfdw_name:string
+@zm_mode:string
+
+【SQL语句】：INSERT INTO `hsbill`  
+           (`actdate`,`arrive_date`,`atd`,`audit_desc`,`bgflags`,`bgglba_code`,`bgioflags`,`bgno`,`bgsc_code`,`billcode`,`blno`,`blno_checked`,`busi_type`,`ccode`,`cflags`,`change_date`,`change_reasons`,`chargeback_date`,`checkdate`,`checker`,`com_insp_date`,`contract_date`,`contractno`,`contractno_print`,`correlation_no`,`correlation_reason_flag`,`country`,`counts`,`createdate`,`createuser`,`custommaster`,`customs_clearance_date`,`customs_draft_no`,`customs_draft_no_idx`,`customs_duties`,`customs_inspection_date`,`customsdlrt_type`,`customsremarks`,`date_of_departure`,`dc`,`delay_reasons`,`delayed_payment`,`delivery_clause`,`delivery_date`,`delivery_port`,`destination`,`docucode`,`domestic_destination`,`domestic_signere_code`,`doubleup`,`driver`,`driver_telephone`,`electronic_check_date`,`entqualif_no`,`entqualif_typecode`,`entqualif_typename`,`entryid`,`eta`,`etd`,`excise_tax`,`exemption`,`expcustomno`,`expdate`,`extfee`,`extfee_currency`,`extfee_sign`,`freedate`,`freight_currency`,`freight_sign`,`freight_value`,`gblgname`,`glbacode`,`glbg_inspection_code`,`glbgcode`,`glcode`,`glqdcode`,`grossweight`,`hawbcode`,`hs_date`,`hs_destination`,`hs_insn`,`hs_passdate`,`hs_status`,`hs_sys_code`,`hs_sys_code_merge`,`impcustomno`,`inspectionorg1`,`inspectionorg2`,`inspectionorg3`,`inspectionorg4`,`inv_date`,`ioflags`,`ioport`,`iotype`,`ipc`,`jgcode`,`jgqycode`,`jgqyname`,`jy_inspection_code`,`jycode`,`jyqycode`,`jyqyname`,`kind_of_package`,`late_fee`,`lflags`,`license`,`listtype`,`load_dest_cd`,`loadport`,`lrcode`,`lrdwcode`,`lrdwname`,`maincode`,`manul_check_date`,`markno`,`markno_file`,`markno_filename`,`modifier`,`modifydate`,`odate`,`opcode`,`orgid`,`origbox_flag`,`other_com_insp`,`other_customs_inspection`,`other_of_package`,`outimpcustomno`,`oversea_signere_address`,`oversea_signere_code`,`oversea_signere_contacts`,`oversea_signere_tel`,`overseas_consignee_code_ename`,`owner_code_scc`,`pay_taxes_date`,`payment_sign`,`portofentry`,`premiums_currency`,`premiums_sign`,`premiums_value`,`pricesign`,`promisitem1`,`promisitem2`,`promisitem3`,`qdcode`,`qddate`,`qdtype`,`qtp`,`qycode`,`rccode`,`relation_customsno`,`relationsign`,`remark`,`required_doc`,`sbcode`,`sbdw_inspection_code`,`sbdwcode`,`sbdwname`,`sbport`,`sccode`,`sheetcode`,`specdecl_flag`,`sqcode`,`status`,`storageplace`,`supervision_mode`,`supervision_mode2`,`sysid`,`tariff`,`totalvolume`,`trade_country`,`transportation`,`truckno`,`tycode`,`type`,`type_shipping`,`unite`,`user_invcode`,`value_added_tax`,`vessel`,`voyage`,`weight`,`xfdw_code`,`xfdw_inspection_code`,`xfdw_name`,`zm_mode`)
+     VALUES
+           (@actdate,@arrive_date,@atd,@audit_desc,@bgflags,@bgglba_code,@bgioflags,@bgno,@bgsc_code,@billcode,@blno,@blno_checked,@busi_type,@ccode,@cflags,@change_date,@change_reasons,@chargeback_date,@checkdate,@checker,@com_insp_date,@contract_date,@contractno,@contractno_print,@correlation_no,@correlation_reason_flag,@country,@counts,@createdate,@createuser,@custommaster,@customs_clearance_date,@customs_draft_no,@customs_draft_no_idx,@customs_duties,@customs_inspection_date,@customsdlrt_type,@customsremarks,@date_of_departure,@dc,@delay_reasons,@delayed_payment,@delivery_clause,@delivery_date,@delivery_port,@destination,@docucode,@domestic_destination,@domestic_signere_code,@doubleup,@driver,@driver_telephone,@electronic_check_date,@entqualif_no,@entqualif_typecode,@entqualif_typename,@entryid,@eta,@etd,@excise_tax,@exemption,@expcustomno,@expdate,@extfee,@extfee_currency,@extfee_sign,@freedate,@freight_currency,@freight_sign,@freight_value,@gblgname,@glbacode,@glbg_inspection_code,@glbgcode,@glcode,@glqdcode,@grossweight,@hawbcode,@hs_date,@hs_destination,@hs_insn,@hs_passdate,@hs_status,@hs_sys_code,@hs_sys_code_merge,@impcustomno,@inspectionorg1,@inspectionorg2,@inspectionorg3,@inspectionorg4,@inv_date,@ioflags,@ioport,@iotype,@ipc,@jgcode,@jgqycode,@jgqyname,@jy_inspection_code,@jycode,@jyqycode,@jyqyname,@kind_of_package,@late_fee,@lflags,@license,@listtype,@load_dest_cd,@loadport,@lrcode,@lrdwcode,@lrdwname,@maincode,@manul_check_date,@markno,@markno_file,@markno_filename,@modifier,@modifydate,@odate,@opcode,@orgid,@origbox_flag,@other_com_insp,@other_customs_inspection,@other_of_package,@outimpcustomno,@oversea_signere_address,@oversea_signere_code,@oversea_signere_contacts,@oversea_signere_tel,@overseas_consignee_code_ename,@owner_code_scc,@pay_taxes_date,@payment_sign,@portofentry,@premiums_currency,@premiums_sign,@premiums_value,@pricesign,@promisitem1,@promisitem2,@promisitem3,@qdcode,@qddate,@qdtype,@qtp,@qycode,@rccode,@relation_customsno,@relationsign,@remark,@required_doc,@sbcode,@sbdw_inspection_code,@sbdwcode,@sbdwname,@sbport,@sccode,@sheetcode,@specdecl_flag,@sqcode,@status,@storageplace,@supervision_mode,@supervision_mode2,@sysid,@tariff,@totalvolume,@trade_country,@transportation,@truckno,@tycode,@type,@type_shipping,@unite,@user_invcode,@value_added_tax,@vessel,@voyage,@weight,@xfdw_code,@xfdw_inspection_code,@xfdw_name,@zm_mode) ;SELECT LAST_INSERT_ID();
+--------------------------------
+2020/5/26 14:24:33|
+【SQL错误】：SELECT [Account],[id] FROM [Identity_User]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/26 14:26:40|
+【SQL错误】：SELECT [Account],[id] FROM [Identity_User]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/26 14:30:35|
+【SQL错误】：SELECT [Account],[id] FROM [Identity_User]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/26 14:32:23|
+【SQL错误】：SELECT [Account],[id] FROM [Identity_User]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/26 14:35:52|
+【SQL错误】：SELECT [Account],[id] FROM [Identity_User]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/26 14:45:30|
+【SQL参数】：@InPara0:2
+
+【SQL语句】：SELECT [Account],[id] FROM [Identity_User]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/26 14:47:36|
+【SQL错误】：INSERT INTO [Identity_User]  
+           ([Account])
+     VALUES
+           (@Account) ;SELECT SCOPE_IDENTITY();
+--------------------------------
+2020/5/26 14:48:07|
+【SQL错误】：INSERT INTO [Identity_User]  
+           ([Account])
+     VALUES
+           (@Account) ;SELECT SCOPE_IDENTITY();
+--------------------------------
+2020/5/26 15:09:44|
+【SQL参数】：@Account:string
+
+【SQL语句】：INSERT INTO [Identity_User]  
+           ([Account])
+     VALUES
+           (@Account) ;SELECT SCOPE_IDENTITY();
+--------------------------------
+2020/5/27 11:24:11|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:20:55|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:21:46|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:22:41|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:33:35|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:36:42|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:44:52|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:45:44|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:46:53|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:49:49|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:54:02|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:54:40|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:54:52|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 15:55:31|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:00:21|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:02:09|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:04:14|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:06:20|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:08:23|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:09:07|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:23:12|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:25:26|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:26:27|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:29:11|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:30:28|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:31:52|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:33:18|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/27 16:41:49|
+【SQL参数】：@Account:string
+@Password:string
+@UserName:string
+@Token:string
+
+【SQL语句】：INSERT INTO [account_user]  
+           ([Account],[Password],[UserName],[Token])
+     VALUES
+           (@Account,@Password,@UserName,@Token) ;SELECT SCOPE_IDENTITY();
+--------------------------------
+2020/5/27 16:44:13|
+【SQL参数】：@InPara0:1
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE [id] IN (@InPara0)  
+--------------------------------
+2020/5/28 16:49:42|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/1 18:45:46|
+【SQL参数】：@Account0:'github'
+
+【SQL语句】：SELECT [Account],[id],[Password],[UserName],[Token] FROM [account_user]  WHERE ( [Account] = @Account0 )
+--------------------------------
+2020/6/1 18:47:38|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/1 19:03:06|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/10 11:32:39|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/10 11:33:50|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/10 11:53:05|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/10 11:54:06|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/10 11:59:14|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/10 13:46:32|
+【SQL参数】：
+【SQL语句】：SELECT  [Account] AS [Account]  FROM [account_user] 
+--------------------------------
+2020/6/30 13:10:59|
+【SQL错误】：SELECT  `Account` AS `Account`  FROM `account_user`  
+--------------------------------
+2020/6/30 14:25:51|
+【SQL错误】：SELECT t.* FROM  (select * from Role) t   
+--------------------------------
+2020/6/30 14:27:15|
+【SQL错误】：SELECT t.* FROM  (select * from Role) t   
+--------------------------------
+2020/6/30 14:49:34|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [Module](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[ParentId] int NULL  ,
+[Name] nvarchar(50) NULL  ,
+[LinkUrl] nvarchar(100) NULL  ,
+[Area] nvarchar(max) NULL  ,
+[Controller] nvarchar(max) NULL  ,
+[Action] nvarchar(max) NULL  ,
+[Icon] nvarchar(100) NULL  ,
+[Code] nvarchar(10) NULL  ,
+[OrderSort] int NOT NULL  ,
+[Description] nvarchar(100) NULL  ,
+[IsMenu] bit NOT NULL  ,
+[Enabled] bit NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(100) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:49:36|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [Module] ADD CONSTRAINT PK_Module_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:49:38|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='Module'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:49:39|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [Permission](
+[Id] int NOT NULL  IDENTITY(1,1),
+[Code] nvarchar(50) NULL  ,
+[Name] nvarchar(50) NULL  ,
+[IsButton] bit NOT NULL  ,
+[IsHide] bit NULL  ,
+[Func] nvarchar(100) NULL  ,
+[Pid] int NOT NULL  ,
+[Mid] int NOT NULL  ,
+[OrderSort] int NOT NULL  ,
+[Icon] nvarchar(100) NULL  ,
+[Description] nvarchar(100) NULL  ,
+[Enabled] bit NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(50) NULL  ,
+[ModifyTime] datetime NULL  ,
+[IsDeleted] bit NULL  )
+--------------------------------
+2020/6/30 14:49:45|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [Permission] ADD CONSTRAINT PK_Permission_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:49:45|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='Permission'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:49:45|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [Role](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[Name] nvarchar(50) NULL  ,
+[Description] nvarchar(100) NULL  ,
+[OrderSort] int NOT NULL  ,
+[Enabled] bit NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] varchar(255) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:49:45|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [Role] ADD CONSTRAINT PK_Role_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:49:45|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='Role'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:49:45|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [RoleModulePermission](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[RoleId] int NOT NULL  ,
+[ModuleId] int NOT NULL  ,
+[PermissionId] int NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(50) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:49:45|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [RoleModulePermission] ADD CONSTRAINT PK_RoleModulePermission_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:49:46|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='RoleModulePermission'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:49:46|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [UserRole](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[UserId] int NOT NULL  ,
+[RoleId] int NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(50) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:49:46|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [UserRole] ADD CONSTRAINT PK_UserRole_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:49:46|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='UserRole'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:57:01|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [Module](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[ParentId] int NULL  ,
+[Name] nvarchar(50) NULL  ,
+[LinkUrl] nvarchar(100) NULL  ,
+[Area] nvarchar(max) NULL  ,
+[Controller] nvarchar(max) NULL  ,
+[Action] nvarchar(max) NULL  ,
+[Icon] nvarchar(100) NULL  ,
+[Code] nvarchar(10) NULL  ,
+[OrderSort] int NOT NULL  ,
+[Description] nvarchar(100) NULL  ,
+[IsMenu] bit NOT NULL  ,
+[Enabled] bit NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(100) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:57:01|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [Module] ADD CONSTRAINT PK_Module_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='Module'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [Permission](
+[Id] int NOT NULL  IDENTITY(1,1),
+[Code] nvarchar(50) NULL  ,
+[Name] nvarchar(50) NULL  ,
+[IsButton] bit NOT NULL  ,
+[IsHide] bit NULL  ,
+[Func] nvarchar(100) NULL  ,
+[Pid] int NOT NULL  ,
+[Mid] int NOT NULL  ,
+[OrderSort] int NOT NULL  ,
+[Icon] nvarchar(100) NULL  ,
+[Description] nvarchar(100) NULL  ,
+[Enabled] bit NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(50) NULL  ,
+[ModifyTime] datetime NULL  ,
+[IsDeleted] bit NULL  )
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [Permission] ADD CONSTRAINT PK_Permission_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='Permission'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [Role](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[Name] nvarchar(50) NULL  ,
+[Description] nvarchar(100) NULL  ,
+[OrderSort] int NOT NULL  ,
+[Enabled] bit NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] varchar(255) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [Role] ADD CONSTRAINT PK_Role_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='Role'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [RoleModulePermission](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[RoleId] int NOT NULL  ,
+[ModuleId] int NOT NULL  ,
+[PermissionId] int NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(50) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [RoleModulePermission] ADD CONSTRAINT PK_RoleModulePermission_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='RoleModulePermission'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：CREATE TABLE [UserRole](
+[Id] int NOT NULL  IDENTITY(1,1),
+[IsDeleted] bit NULL  ,
+[UserId] int NOT NULL  ,
+[RoleId] int NOT NULL  ,
+[CreateId] int NULL  ,
+[CreateBy] nvarchar(50) NULL  ,
+[CreateTime] datetime NULL  ,
+[ModifyId] int NULL  ,
+[ModifyBy] nvarchar(50) NULL  ,
+[ModifyTime] datetime NULL  )
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：ALTER TABLE [UserRole] ADD CONSTRAINT PK_UserRole_Id PRIMARY KEY([Id])
+--------------------------------
+2020/6/30 14:57:02|
+【SQL参数】：
+【SQL语句】：SELECT sysobjects.name AS TableName,
+                           syscolumns.Id AS TableId,
+                           syscolumns.name AS DbColumnName,
+                           systypes.name AS DataType,
+                           syscolumns.length AS [Length],
+                           sys.extended_properties.[value] AS [ColumnDescription],
+                           syscomments.text AS DefaultValue,
+                           syscolumns.isnullable AS IsNullable,
+	                       columnproperty(syscolumns.id,syscolumns.name,'IsIdentity')as IsIdentity,
+                           (CASE
+                                WHEN EXISTS
+                                       ( 
+                                             	select 1
+												from sysindexes i
+												join sysindexkeys k on i.id = k.id and i.indid = k.indid
+												join sysobjects o on i.id = o.id
+												join syscolumns c on i.id=c.id and k.colid = c.colid
+												where o.xtype = 'U' 
+												and exists(select 1 from sysobjects where xtype = 'PK' and name = i.name) 
+												and o.name=sysobjects.name and c.name=syscolumns.name
+                                       ) THEN 1
+                                ELSE 0
+                            END) AS IsPrimaryKey
+                    FROM syscolumns
+                    INNER JOIN systypes ON syscolumns.xtype = systypes.xtype
+                    LEFT JOIN sysobjects ON syscolumns.id = sysobjects.id
+                    LEFT OUTER JOIN sys.extended_properties ON (sys.extended_properties.minor_id = syscolumns.colid
+                                                                AND sys.extended_properties.major_id = syscolumns.id)
+                    LEFT OUTER JOIN syscomments ON syscolumns.cdefault = syscomments.id
+                    WHERE syscolumns.id IN
+                        (SELECT id
+                         FROM sysobjects
+                         WHERE xtype IN('u',
+                                        'v') )
+                      AND (systypes.name <> 'sysname')
+                      AND sysobjects.name='UserRole'
+                      AND systypes.name<>'geometry'
+                      AND systypes.name<>'geography'
+                    ORDER BY syscolumns.colid

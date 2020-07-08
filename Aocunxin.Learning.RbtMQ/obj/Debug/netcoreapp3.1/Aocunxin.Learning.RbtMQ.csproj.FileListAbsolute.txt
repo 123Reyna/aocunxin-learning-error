@@ -1,0 +1,9 @@
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\bin\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.deps.json
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\bin\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.dll
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\bin\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.pdb
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\obj\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.csprojAssemblyReference.cache
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\obj\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.AssemblyInfoInputs.cache
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\obj\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.AssemblyInfo.cs
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\obj\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.csproj.CoreCompileInputs.cache
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\obj\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.dll
+E:\backend\Learning\Aocunxin.Learning\Aocunxin.Learning.RbtMQ\obj\Debug\netcoreapp3.1\Aocunxin.Learning.RbtMQ.pdb

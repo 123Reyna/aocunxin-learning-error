@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aocunxin.Learning", "Aocunxin.Learning\Aocunxin.Learning.csproj", "{A235F86D-E2CD-410F-8286-6EBF336EC524}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aocunxin.Learning.Repository", "Aocunxin.Learning.Repository\Aocunxin.Learning.Repository.csproj", "{5D4FE4C9-A695-4859-BFEE-4548038AA55C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03service", "03service", "{BE1436F6-8B3C-49DD-8A58-5D31E9EEBA33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01Common", "01Common", "{FCF78E81-B37F-404F-8F76-160C20752340}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aocunxin.Learning.Common", "Aocunxin.Learning.Common\Aocunxin.Learning.Common.csproj", "{23208878-B93F-4811-892D-488BD633D035}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aocunxin.Learning.IRepository", "Aocunxin.Learning.IRepository\Aocunxin.Learning.IRepository.csproj", "{2B98275B-021D-4B1D-9B7F-BF5EFFAAFE20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02ApiGateway", "02ApiGateway", "{56B3BE1D-04CA-41DA-8763-D4EECE8DF355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aocunxin.Learning.RbtMQ", "Aocunxin.Learning.RbtMQ\Aocunxin.Learning.RbtMQ.csproj", "{4A78CCF0-7ABF-4EA4-B458-AAB141840E92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A235F86D-E2CD-410F-8286-6EBF336EC524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A235F86D-E2CD-410F-8286-6EBF336EC524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A235F86D-E2CD-410F-8286-6EBF336EC524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A235F86D-E2CD-410F-8286-6EBF336EC524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D4FE4C9-A695-4859-BFEE-4548038AA55C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D4FE4C9-A695-4859-BFEE-4548038AA55C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D4FE4C9-A695-4859-BFEE-4548038AA55C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D4FE4C9-A695-4859-BFEE-4548038AA55C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23208878-B93F-4811-892D-488BD633D035}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23208878-B93F-4811-892D-488BD633D035}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23208878-B93F-4811-892D-488BD633D035}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23208878-B93F-4811-892D-488BD633D035}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B98275B-021D-4B1D-9B7F-BF5EFFAAFE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B98275B-021D-4B1D-9B7F-BF5EFFAAFE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B98275B-021D-4B1D-9B7F-BF5EFFAAFE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B98275B-021D-4B1D-9B7F-BF5EFFAAFE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A78CCF0-7ABF-4EA4-B458-AAB141840E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A78CCF0-7ABF-4EA4-B458-AAB141840E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A78CCF0-7ABF-4EA4-B458-AAB141840E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A78CCF0-7ABF-4EA4-B458-AAB141840E92}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A235F86D-E2CD-410F-8286-6EBF336EC524} = {BE1436F6-8B3C-49DD-8A58-5D31E9EEBA33}
+		{5D4FE4C9-A695-4859-BFEE-4548038AA55C} = {FCF78E81-B37F-404F-8F76-160C20752340}
+		{23208878-B93F-4811-892D-488BD633D035} = {FCF78E81-B37F-404F-8F76-160C20752340}
+		{2B98275B-021D-4B1D-9B7F-BF5EFFAAFE20} = {FCF78E81-B37F-404F-8F76-160C20752340}
+		{4A78CCF0-7ABF-4EA4-B458-AAB141840E92} = {FCF78E81-B37F-404F-8F76-160C20752340}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EC50DEA-27A2-4E2B-A1F5-A5850EB44041}
+	EndGlobalSection
+EndGlobal
