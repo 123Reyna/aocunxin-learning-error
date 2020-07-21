@@ -1,0 +1,14 @@
+﻿{
+ 
+  "profiles": {
+   
+    "Quick_Start_MVC": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "applicationUrl": "http://localhost:49363;",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
